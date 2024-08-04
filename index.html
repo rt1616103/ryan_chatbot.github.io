@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Chat-Bot</title>
+</head>
+
+<body>
+	<div class="display-container">
+		<div class="chat-banner">
+			<h1>Click the button below to chat</h1>
+			<img src="img/chats-circle-thin-svgrepo-com.svg" width="100" height="100">
+			<button id="chatButton">CHAT</button>
+		</div>
+		<div id="chatbot">
+			<ul id="chat-container">
+				<div>
+					<img src="img/IMG-20240716-WA0001.jpg" class="img" alt="chatbot pic">
+					<div class="title-box">
+						<p class="title">Hi, I am ChatBot</p>
+						<p class="headline"></p>
+					</div>
+				</div>
+				<button class="btn">Close</button>
+			</ul>
+			<div id="userContainer">
+				<div class="main-user"></div>
+			</div>
+			<div class="send-box">
+				<input id="input" type="text" placeholder="let's chat....." autocomplete="off">
+				<input type="submit" value="Send" id="submit">
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
